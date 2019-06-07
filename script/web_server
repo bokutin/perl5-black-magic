@@ -1,0 +1,10 @@
+#!/usr/bin/env perl
+
+use rlib;
+
+BEGIN {
+    $ENV{CATALYST_SCRIPT_GEN} = 40;
+}
+
+use Catalyst::ScriptRunner;
+Catalyst::ScriptRunner->run('MyApp::Web', 'Server');

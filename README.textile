@@ -1,0 +1,8 @@
+https://bokut.in/note/2019/06/d-Perl黒魔術_Import-Into
+
+MyApp::Web::Controller::* や
+MyApp::Form::* など
+名前空間によってインポートするメソッドやベースクラスの定型を
+MyApp::Class に纏めてみます。
+
+@INC を弄ったり、ソースフィルタを使えば use MyApp::Class も削れるかも。
